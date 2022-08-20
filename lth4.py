@@ -11,5 +11,5 @@ data = open('data.txt')
 # re.search -> mencari kata yang berada di dalam kalimat
 for i in data:
     i = i.rstrip()
-    if re.search('From:',i):
+    if re.search('^From:', i):
         print(i)
