@@ -15,4 +15,4 @@ for line in fh:
         lst.append(i)
 
 print("=================")
-print(sorted(lst))
+print(lst)
