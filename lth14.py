@@ -9,5 +9,7 @@ soup = ber(html, 'html.parser')
 
 tags = soup('a')
 
+print(soup)
 for i in tags:
+    print(i)
     print(i.get('href', None))
