@@ -8,4 +8,3 @@ data = get.urlopen('http://www.dr-chuck.com/page1.htm')
 
 for i in data:
     i = i.decode().rstrip()
-    print(i)

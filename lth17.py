@@ -16,7 +16,7 @@ def fungsi(x, key):
     return string
 
 
-nilai = fungsi("Hallo semuanya apa kabar ayo maling BUKU", "K")
+nilai = fungsi("Hallo semuanya apa kabar ayo maling BUKU !!!!!! 123456 ini kode nya nanti kamu bisa melakukan nya untuk membobol atm oke wkwkwkw", "K")
 print('ciperteks : {}'.format(nilai))
 nilai2 = fungsi(nilai, "K")
 print('palintex : {}'.format(nilai2))
